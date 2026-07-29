@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Env / secrets
+.env
+*.local
+
+# Uploads (保留目录占位文件)
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+
+# Logs
+*.log
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
